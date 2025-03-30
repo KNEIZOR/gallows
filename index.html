@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Виселица</title>
+    </head>
+    <body>
+        <div class="result"><h1></h1></div>
+        <div class="gallow">
+            <div class="stage stage-1">
+                <div class="pillar"></div>
+                <div class="pillar-2"></div>
+            </div>
+            <div class="stage stage-2">
+                <div class="rope"></div>
+                <div class="ring"></div>
+            </div>
+            <div class="stage stage-3">
+                <div class="body"></div>
+            </div>
+            <div class="stage stage-4">
+                <div class="left-hand"></div>
+            </div>
+            <div class="stage stage-5">
+                <div class="right-hand"></div>
+            </div>
+            <div class="stage stage-6">
+                <div class="left-leg"></div>
+            </div>
+            <div class="stage stage-7">
+                <div class="right-leg"></div>
+            </div>
+        </div>
+        <div class="word"></div>
+        <div class="letters-wrapper">
+            <div class="letters"></div>
+        </div>
+        <div class="buttons">
+            <button class="btn restart-btn" onclick="restart()">
+                Перезапустить
+            </button>
+            <button class="btn restart-btn" onclick="promptLetter()">
+                Подсказки: <span class="count-prompt">0</span>
+            </button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
