@@ -20,4 +20,4 @@
 
 ## Ссылка на проект
 
--   [Проект](https://kneizor.github.io/gallows/){target="_blank"}
+-   [Проект](https://kneizor.github.io/gallows/)
